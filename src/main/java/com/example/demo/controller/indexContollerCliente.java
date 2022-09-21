@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class indexContollerCliente {
 
-	@GetMapping("/dash")
+	@GetMapping("/")
 	public String mostrarIndex() {
 			
 		return "/Cliente/index";

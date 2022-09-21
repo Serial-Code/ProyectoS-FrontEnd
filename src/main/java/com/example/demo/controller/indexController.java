@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class indexController {
 
-	@GetMapping("/")
+	@GetMapping("/index")
 	public String mostrarIndex() {
 		
 		return "/Administrador/index" ;
 	}
 	
-	@GetMapping("/inicio")
+	@GetMapping("/home")
 	public String mostrarInicio() {
 		
 		return "/Administrador/indexCuerpo" ;
